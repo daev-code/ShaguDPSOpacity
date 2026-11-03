@@ -1,21 +1,22 @@
 # ShaguDPS Opacity
 
-Companion addon for [ShaguDPS](https://github.com/shagu/ShaguDPS) (WoW 1.12) that adds
-an **OOC Opacity** setting. Out of combat all ShaguDPS windows are shown at that opacity; in
-combat, and while the mouse is over a window, they're fully opaque.
+Adds an out-of-combat opacity setting to [ShaguDPS](https://github.com/shagu/ShaguDPS) for
+WoW 1.12. Out of combat, every ShaguDPS window fades to that level. In combat, or while you
+hover over a window, it's fully opaque again.
 
 ## Usage
 
-Open ShaguDPS's settings window. The new **OOC Opacity** row is at the bottom of the
-"Window" section: `<` / `>` step from 10% to 100% in steps of 10%. 100% means no fading.
-Windows you add later with the "+" button get the same opacity.
+Open ShaguDPS's settings. The new **OOC Opacity** row is at the bottom of the "Window"
+section; `<` and `>` step between 10% and 100%. At 100% nothing fades. Windows you open
+later with the "+" button use the same setting.
 
-The setting is saved with ShaguDPS's other settings. ShaguDPS's own files aren't changed, so
-its folder stays a clean git clone.
+It's saved with ShaguDPS's other settings, and ShaguDPS's own files aren't modified.
 
 ## Install
 
-- **With a launcher or git:** add `https://github.com/daev-code/ShaguDPSOpacity` as an addon, or
-  `git clone` it into `Interface\AddOns`. Keep the `.git` folder: launchers that install
-  from git use it to fetch updates.
-- **By hand:** copy this folder to `Interface\AddOns\ShaguDPSOpacity`. Updates are then manual too.
+Add `https://github.com/daev-code/ShaguDPSOpacity` to your launcher, or `git clone` it into
+`Interface\AddOns`. Leave the `.git` folder in place: launchers that install from git need
+it to pull updates.
+
+You can also copy the folder to `Interface\AddOns\ShaguDPSOpacity` yourself, but then
+you'll need to update it yourself too.
