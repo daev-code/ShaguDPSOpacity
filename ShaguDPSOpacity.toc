@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: |cffffcc00Shagu|cffffffffDPS Opacity
+## Notes: Adds an "OOC Opacity" setting to ShaguDPS: its windows fade out of combat.
+## Version: 1.0
+## Author: daev-code
+## X-Website: https://github.com/daev-code/ShaguDPSOpacity
+## Dependencies: ShaguDPS
+ShaguDPSOpacity.lua
